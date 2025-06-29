@@ -1,0 +1,46 @@
+Performance of the CA model
+
+--- 
+ 
+Time taken for a single run of the simulation: 27.63 seconds. Parameters: lattice size (50, 50), steps 1080, empty init 6, predator init 8.
+
+---
+
+Time taken for a single run of the simulation: 33.75 seconds. Parameters: lattice size (50, 50), steps 1080, empty init 6, predator init 8.
+
+
+------------------------------------
+Let's now test how it behaves when varying the time_steps
+------------------------------------
+
+Time taken for a single run of the simulation: 27.68 seconds. Parameters: lattice size (50, 50), steps 1080, empty init 6, predator init 8.
+
+Time taken for 100 steps: 2.73 seconds. Parameters: lattice size (50, 50), empty init 6, predator init 8.
+Time taken for 500 steps: 13.17 seconds. Parameters: lattice size (50, 50), empty init 6, predator init 8.
+Time taken for 1000 steps: 26.02 seconds. Parameters: lattice size (50, 50), empty init 6, predator init 8.
+Time taken for 2000 steps: 53.93 seconds. Parameters: lattice size (50, 50), empty init 6, predator init 8.
+Time taken for 5000 steps: 139.54 seconds. Parameters: lattice size (50, 50), empty init 6, predator init 8.
+
+
+---------------------------------------------------------------------------------------------------------
+
+Time taken for a single run of the simulation: 26.55 seconds. Parameters: lattice size (50, 50), steps 1080, empty init 6, predator init 8.
+Time taken for 100 steps: 2.47 ± 0.02 seconds. Parameters: lattice size (50, 50), empty init 6, predator init 8.
+Time taken for 500 steps: 12.48 ± 0.07 seconds. Parameters: lattice size (50, 50), empty init 6, predator init 8.
+Time taken for 1000 steps: 25.31 ± 0.12 seconds. Parameters: lattice size (50, 50), empty init 6, predator init 8.
+Time taken for 2000 steps: 63.72 ± 5.43 seconds. Parameters: lattice size (50, 50), empty init 6, predator init 8.
+Time taken for 5000 steps: 157.35 ± 1.47 seconds. Parameters: lattice size (50, 50), empty init 6, predator init 8.
+Time taken for lattice size 10x10: 0.65 ± 0.04 seconds. Parameters: steps 500, empty init 6, predator init 8.
+Time taken for lattice size 20x20: 2.84 ± 0.44 seconds. Parameters: steps 500, empty init 6, predator init 8.
+Time taken for lattice size 30x30: 5.38 ± 0.60 seconds. Parameters: steps 500, empty init 6, predator init 8.
+Time taken for lattice size 40x40: 8.62 ± 0.11 seconds. Parameters: steps 500, empty init 6, predator init 8.
+Time taken for lattice size 50x50: 14.64 ± 2.13 seconds. Parameters: steps 500, empty init 6, predator init 8.
+Time taken for lattice size 60x60: 30.81 ± 2.36 seconds. Parameters: steps 500, empty init 6, predator init 8.
+Time taken for lattice size 70x70: 43.13 ± 1.80 seconds. Parameters: steps 500, empty init 6, predator init 8.
+Time taken for lattice size 80x80: 52.29 ± 4.24 seconds. Parameters: steps 500, empty init 6, predator init 8.
+Time taken for lattice size 90x90: 58.81 ± 5.63 seconds. Parameters: steps 500, empty init 6, predator init 8.
+Time taken for lattice size 100x100: 59.46 ± 0.39 seconds. Parameters: steps 500, empty init 6, predator init 8.
+
+--------------------------------------------------------------------------------------------------------------
+
+Time taken for a single run of the simulation: 951.62 seconds. Parameters: lattice size (100, 100), steps 500, empty init 6, predator init 8.
